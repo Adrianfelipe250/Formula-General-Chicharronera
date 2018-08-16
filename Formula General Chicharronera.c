@@ -15,9 +15,9 @@ int main (){
 	float x1 ;
 	float x2 ;
 	float resultado1 = sqrt(termino2*termino2-(termino1*termino2*4));
-    x1=((termino2*-1)+(resultado1))/(2*termino1);  
-    x2=((termino2*-1)-(resultado1))/(2*termino1);
-    printf ("\n El resultado de x1 es: %f",x1);
-    printf ("\n El resultado de x2 es: %f",x2);
-    return 0;
+        x1=((termino2*-1)+(resultado1))/(2*termino1);  
+        x2=((termino2*-1)-(resultado1))/(2*termino1);
+        printf ("\n El resultado de x1 es: %f",x1);
+        printf ("\n El resultado de x2 es: %f",x2);
+        return 0;
 }
